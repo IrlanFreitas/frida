@@ -35,3 +35,19 @@
   flex-flow: column wrap;
   height: 250px;
 }
+
+/* ! Course Grid */
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* display: grid;
+    grid-template-areas: "1fr 1fr 1fr 1fr";
+    column-gap: 20px;
+    row-gap: 20px; */
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+}
