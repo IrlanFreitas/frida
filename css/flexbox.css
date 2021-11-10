@@ -1,0 +1,37 @@
+/* ! Cabeçalho */
+.cabecalhoPrincipal-nav {
+  display: flex;
+}
+
+.cabecalhoPrincipal .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ! Rodapé */
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+}
+
+.rodapePrincipal-patrocinadores-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+/* ! Course Map */
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  /*? Simplificado */
+  flex-flow: column wrap;
+  height: 250px;
+}
